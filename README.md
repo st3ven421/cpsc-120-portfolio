@@ -40,26 +40,26 @@ Think about your three favorite lab exercises that you completed this semester. 
 In case, you no longer have copies of your labs on your computer the links to each Canvas lab assignment is given below. **Bookmark or write down your favorite lab repositories or lab parts to make it easier to find your favorite labs.**
 
 <!-- comment: short cut to build the list is
-COURSEID="3445940"
+COURSEID="3453286"
 count=1
-for i in `./bin/asgts.py -c $COURSEID ls | grep "Lab [0-9]\+" | cut -f 1 -d\ `; do
+for i in `./bin/asgts.py -c $COURSEID ls | egrep "^[0-9]{8} \"Lab [0-9][0-9]?\".*$" | cut -f 1 -d\ `; do
     echo "* [Lab $count](https://csufullerton.instructure.com/courses/${COURSEID}/assignments/$i)"
     count=$(($count + 1))
+done
 ` -->
 
-* [Lab 1](https://csufullerton.instructure.com/courses/3445940/assignments/35652783)
-* [Lab 2](https://csufullerton.instructure.com/courses/3445940/assignments/35652792)
-* [Lab 3](https://csufullerton.instructure.com/courses/3445940/assignments/35652794)
-* [Lab 4](https://csufullerton.instructure.com/courses/3445940/assignments/35652795)
-* [Lab 5](https://csufullerton.instructure.com/courses/3445940/assignments/35652797)
-* [Lab 6](https://csufullerton.instructure.com/courses/3445940/assignments/35652799)
-* [Lab 7](https://csufullerton.instructure.com/courses/3445940/assignments/35652801)
-* [Lab 8](https://csufullerton.instructure.com/courses/3445940/assignments/35652804)
-* [Lab 9](https://csufullerton.instructure.com/courses/3445940/assignments/35652806)
-* [Lab 10](https://csufullerton.instructure.com/courses/3445940/assignments/35652784)
-* [Lab 11](https://csufullerton.instructure.com/courses/3445940/assignments/35652786)
-* [Lab 12](https://csufullerton.instructure.com/courses/3445940/assignments/35652788)
-
+* [Lab 1](https://csufullerton.instructure.com/courses/3453286/assignments/37261539)
+* [Lab 2](https://csufullerton.instructure.com/courses/3453286/assignments/37261543)
+* [Lab 3](https://csufullerton.instructure.com/courses/3453286/assignments/37261545)
+* [Lab 4](https://csufullerton.instructure.com/courses/3453286/assignments/37261546)
+* [Lab 5](https://csufullerton.instructure.com/courses/3453286/assignments/37261547)
+* [Lab 6](https://csufullerton.instructure.com/courses/3453286/assignments/37261548)
+* [Lab 7](https://csufullerton.instructure.com/courses/3453286/assignments/37261549)
+* [Lab 8](https://csufullerton.instructure.com/courses/3453286/assignments/37261550)
+* [Lab 9](https://csufullerton.instructure.com/courses/3453286/assignments/37261551)
+* [Lab 10](https://csufullerton.instructure.com/courses/3453286/assignments/37261540)
+* [Lab 11](https://csufullerton.instructure.com/courses/3453286/assignments/37261541)
+* [Lab 12](https://csufullerton.instructure.com/courses/3453286/assignments/37261542)
 
 ## Step 2: Reflection
 
