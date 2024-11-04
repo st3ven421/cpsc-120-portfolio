@@ -39,7 +39,7 @@ Think about your three favorite lab exercises that you completed this semester. 
 
 In case, you no longer have copies of your labs on your computer the links to each Canvas lab assignment is given below. **Bookmark or write down your favorite lab repositories or lab parts to make it easier to find your favorite labs.**
 
-<!-- comment: short cut to build the list is
+<!-- comment: short cut to build the list using mshafae's canvas-utils is
 COURSEID="3453286"
 count=1
 for i in `./bin/asgts.py -c $COURSEID ls | egrep "^[0-9]{8} \"Lab [0-9][0-9]?\".*$" | cut -f 1 -d\ `; do
